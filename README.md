@@ -1,43 +1,62 @@
 # Bancodrone
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bancodrone`. To experiment with that code, run `bin/console` for an interactive prompt.
+Bienvenido a esta gema, por ahora sólo está el esqueleto.
 
-TODO: Delete this and the text above, and describe your gem
 
-## Installation
+## Instalación
 
-Add this line to your application's Gemfile:
+Agrega esta línea a tu archivo Gemfile:
 
 ```ruby
 gem 'bancodrone'
 ```
 
-And then execute:
+Luego ejecuta:
 
     $ bundle
 
-Or install it yourself as:
+O instala a mano con:
 
     $ gem install bancodrone
 
-## Usage
 
-TODO: Write usage instructions here
+## Uso
 
-## Development
+TODO: Pendiente.
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Desarrollo
 
-## Contributing
+Te sugiero instalar ruby y nodejs vía [asdf](https://asdf-vm.com).
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bancodrone. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Una vez clonado el repositorio, ejecuta `bin/setup` para instalar las dependencias.
 
-## License
+Para ayudar a la documentación, ejecuta el servidor de desarrollo de vuepress:
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+    $ yarn docs:dev
 
-## Code of Conduct
 
-Everyone interacting in the Bancodrone project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/bancodrone/blob/master/CODE_OF_CONDUCT.md).
+## Liberar versiones
+
+Siempre olvido esto… el comando para liberar una nueva versión de la gema es:
+
+    $ rake release
+
+Para actualizar el sitio de documentación:
+
+    $ rake docs:release
+
+
+## Cómo Contribuir
+
+Bug reports y pull requests pueden enviarse mediante el repositorio GitHub https://github.com/a0/a0-bancodrone. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+
+## Licencia
+
+Esta gema está disponible en modalidad open source bajo los términos de la [Licencia MIT](https://opensource.org/licenses/MIT).
+
+
+## Código de Conducta
+
+Todos quienes interactúen en este proyecto ya sea en código fuente, issue trackers, chat rooms y mailing lists deberán acatar nuestro [Código de Conducta](https://github.com/a0/a0-bancodrone/blob/master/CODE_OF_CONDUCT.md).
