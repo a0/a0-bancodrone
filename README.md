@@ -49,7 +49,7 @@ Para actualizar el sitio de documentación:
 
 ## Cómo Contribuir
 
-Bug reports y pull requests pueden enviarse mediante el repositorio GitHub https://github.com/a0/a0-bancodrone. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports y pull requests pueden enviarse mediante el repositorio GitHub https://github.com/a0/a0-bancodrone-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## Licencia
@@ -59,4 +59,4 @@ Esta gema está disponible en modalidad open source bajo los términos de la [Li
 
 ## Código de Conducta
 
-Todos quienes interactúen en este proyecto ya sea en código fuente, issue trackers, chat rooms y mailing lists deberán acatar nuestro [Código de Conducta](https://github.com/a0/a0-bancodrone/blob/master/CODE_OF_CONDUCT.md).
+Todos quienes interactúen en este proyecto ya sea en código fuente, issue trackers, chat rooms y mailing lists deberán acatar nuestro [Código de Conducta](https://github.com/a0/a0-bancodrone-ruby/blob/master/CODE_OF_CONDUCT.md).
