@@ -1,4 +1,4 @@
-require "bancodrone/version"
+require 'bancodrone/version'
 
 module Bancodrone
   class Error < StandardError; end

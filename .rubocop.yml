@@ -1,0 +1,33 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - db/schema.rb
+Metrics/BlockLength:
+  Max: 40
+Metrics/MethodLength:
+  Max: 40
+Metrics/ParameterLists:
+  Max: 12
+Metrics/ClassLength:
+  Max: 250
+Metrics/ModuleLength:
+  Max: 250
+Metrics/LineLength:
+  Max: 200
+Metrics/AbcSize:
+  Max: 40
+Metrics/CyclomaticComplexity:
+  Max: 12
+Metrics/PerceivedComplexity:
+  Max: 14
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/ConditionalAssignment:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Exclude:
+    - app/models/**/*
+Style/Documentation:
+  Enabled: false
