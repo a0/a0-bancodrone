@@ -4,6 +4,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.1.0",
     "eslint": "^6.4.0",
     "vuepress": "^1.1.0"
   }
